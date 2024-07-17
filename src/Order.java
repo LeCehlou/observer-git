@@ -16,6 +16,10 @@ public class Order {
         return 0;
     }
 
+    public void addItem(Item item) {
+        return;
+    }
+
     @Override
     public String toString() {
         return null;
