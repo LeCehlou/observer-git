@@ -1,10 +1,7 @@
 public class PriceObserver implements OrderObserver{
 
-    public PriceObserver() {
-    }
-
     @Override
     public void update(Order order) {
-        return;
+            order.setDiscount(order.getTotalPrice() > 200);
     }
 }
